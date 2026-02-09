@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.contenedor{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "cinco cinco cinco uno uno uno"
+    "cuatro cuatro tres tres dos dos";
+}
+.click{
+    grid-area: uno;
+    background-color: brown;
+    position: relative;
+    z-index: 2;
+}
+
+.parallax{
+    grid-area: dos;
+    background-color: rgb(157, 212, 212);
+}
+#sol{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: rgb(255, 253, 117);
+    position: absolute;
+    bottom: -50%;
+    right: 12%;
+}
+#arboles{
+    width: 33%;
+    position: absolute;
+    bottom: -13%;
+    right: 5;
+}
+#copos{
+    width: 33%;
+    position: absolute;
+    bottom: -40%;
+    right: 5;
+}
+main{
+    height: 80vh;
+}
+.movimiento{
+    grid-area: tres;
+    background-color: rgb(117, 85, 146);
+}
+.movimiento #cajaM1{
+    width: 200px;
+    height: 150px;
+    background-color: rgb(67, 70, 69);
+    position: absolute;
+    bottom: -3%;
+    transition: 0.5s;
+    border-radius: 20% 20% 0% 0%;
+}
+.movimiento #cajaM2{
+    width: 200px;
+    height: 150px;
+    background-color: rgb(67, 70, 69);
+    position: absolute;
+    bottom: -3%;
+    left: 40%;
+    transition: 0.5s;
+    border-radius: 20% 20% 0% 0%;
+}
+.carga{
+    grid-area: cuatro;
+    background-color: coral;
+}
+.scroll{
+    grid-area: cinco;
+    background-color: rgb(189, 161, 119);
+}
+#cuadro{
+    width: 450px;
+    height: 250px;
+    background-color: rgb(184, 153, 212);
+    position: absolute;
+    left: 8%;
+    top: 5%;
+    transition: .5s;
+}

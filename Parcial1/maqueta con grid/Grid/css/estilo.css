@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.contenedor-grid{
+    width: 100vw;
+    height: auto;
+    
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "uno dos"
+    "tres tres"
+    "cuatro cuatro"
+    "cinco cinco";
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 5fr 2fr 600px 75px;
+    
+}
+.contenedor-grid div{
+    
+    font-size: 25px;
+}
+.elemento1{
+    grid-area: uno;
+    background: #6E3F35;
+}
+
+.elemento2{
+    grid-area: dos;
+    
+    display: grid;
+    grid-template-rows: 70px 50px;
+    gap: 5px;
+}
+.buscador{
+    padding-left: 20px;
+    padding-top: 15px;
+    background: #404961;
+}
+.idiomas{
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-evenly;
+    background: rgb(173, 165, 143);
+}
+
+.elemento3{
+    grid-area: tres;
+    display: grid;
+    grid-template-areas: 
+    "nose nav";
+    grid-template-columns: 1fr 4fr;
+    gap: 10px;
+    
+}
+.nose{
+    grid-area: nose;
+    background: #656e57;
+}
+nav{
+    background: #656e57;
+    grid-area: nav;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 7px;
+}
+
+.elemento4{
+    grid-area: cuatro;
+    display: grid;
+    grid-template-areas: 
+    "imagen video video video aladovideo"
+    "abajoimagen noticia1 noticia2 noticia3 aladovideo";
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 2fr 3fr;
+    gap: 10px;
+    
+}
+.imagen{
+    grid-area: imagen;
+    background: #ccc0be;
+    
+}
+.video{
+    grid-area: video;
+    background: #ccc0be;
+    
+}
+.abajo-imagen{
+    grid-area: abajoimagen;
+    background: #ccc0be;
+    
+}
+.alado-video{
+    grid-area: aladovideo;
+    background: #ccc0be;
+    
+}
+.noticia1{
+    grid-area: noticia1;
+    justify-items: center;
+    padding-top: 20px;
+    background: #ccc0be;
+    border-radius: 20px;
+}
+.noticia2{
+    grid-area: noticia2;
+    background: #ccc0be;
+    border-radius: 20px;
+    justify-items: center;
+    padding-top: 20px;
+}
+.noticia3{
+    grid-area: noticia3;
+    background: #ccc0be;
+    border-radius: 20px;
+    justify-items: center;
+    padding-top: 20px;
+}
+
+
+
+.elemento5{
+    grid-area: cinco;
+    background: rgb(146, 130, 117);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+@media (max-width: 400px) {
+    .contenedor-grid{
+    grid-template-areas: 
+    "uno"
+    "dos"
+    "tres"
+    "cuatro"
+    "cinco"
+    "seis";
+    }
+}
