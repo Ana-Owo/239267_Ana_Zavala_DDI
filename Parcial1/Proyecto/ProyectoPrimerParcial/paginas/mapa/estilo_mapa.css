@@ -1,0 +1,143 @@
+.contenedor_grid3{
+    display: grid;
+    grid-template-areas: 
+    "opciones mapa mapa"
+    "opciones mapa mapa";
+    grid-template-columns: 0.5fr 1fr 1fr;
+    gap: 30px;
+    padding: 30px;
+}
+/*Estilo de las opciones*/
+.opciones{
+    grid-area: opciones;
+    background-color: #6594B1;
+    padding: 3vw;
+    justify-items: center;
+    border-radius: 10px;
+}
+h2{
+    padding-bottom: 2vw;
+    border-bottom: solid 2px #0f1c25;
+    color: #0f1c25;
+}
+.botones{
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    border-bottom: solid 2px #0f1c25;
+}
+.botones button{
+    background-color: #213C51;
+    color: #EEEEEE;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+}
+.objetos{
+    display: block;
+    padding-top: 2vh;
+}
+.objetos button{
+    width: 10vw;
+    margin: 2vh;
+    padding: 1vh;
+    background-color: #EEEEEE;
+    border: none;
+    color: #0f1c25;
+    border-radius: 10px;
+}
+
+/*Estilo del mapa*/
+.mapa{
+    grid-area: mapa;
+}
+#mapa{
+    width: 100%;
+}
+
+button{
+    width: 5vw;
+}
+
+.marcadores{
+    width: 3vw;
+    position: absolute;
+    
+}
+
+.Mbebidas{
+    opacity: 0;
+    transition: 0.5s;
+}
+.Mjefes{
+    opacity: 0;
+    transition: 0.5s;
+}
+.Mtesoros{
+    opacity: 0;
+    transition: 0.5s;
+}
+/*Posiciones de los marcadores de bebidas*/
+#marcadorbebidas1{  
+    top: 59%;
+    left: 33%;
+}
+#marcadorbebidas2{
+    top: 74%;
+    left: 34%;
+}
+#marcadorbebidas3{
+    top: 65%;
+    left: 53%;
+}
+#marcadorbebidas4{
+    top: 45%;
+    left: 62%;
+}
+#marcadorbebidas5{
+    top: 74%;
+    left: 88%;
+}
+#marcadorbebidas6{
+    top: 108%;
+    left: 89%;
+}
+#marcadorbebidas7{
+    top: 116%;
+    left: 35%;
+}
+
+/*Posiciones de los marcadores de jefes*/
+#marcadorjefes1{  
+    top: 71%;
+    left: 70%;
+}
+#marcadorjefes2{  
+    top: 120%;
+    left: 88%;
+}
+#marcadorjefes3{  
+    top: 110%;
+    left: 69%;
+}
+#marcadorjefes4{  
+    top: 114%;
+    left: 46%;
+}
+#marcadorjefes5{  
+    top: 111%;
+    left: 32%;
+}
+#marcadorjefes6{  
+    top: 125%;
+    left: 33%;
+}
+
+/*Posiciones de los marcadores de tesoros*/
+#marcadortesoros1{  
+    top: 96%;
+    left: 24%;
+}
+#marcadortesoros2{  
+    top: 50%;
+    left: 42%;
+}

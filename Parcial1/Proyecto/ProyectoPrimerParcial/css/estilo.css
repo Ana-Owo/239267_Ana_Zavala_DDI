@@ -1,0 +1,112 @@
+/*estilo general*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #EEEEEE;
+    transition: 0.5s;
+}
+header{
+    width: 100%;
+    height: 125px;
+    background-color: #213C51;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h1{
+    padding-left: 80px;
+    color: #EEEEEE;
+}
+header img {
+    width: 7%;
+}
+#busqueda{
+    width: 15px;
+    padding-left: 10px;
+}
+input{
+    height: 25px;
+    border-radius: 25px;
+    border: #6594B1;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: #213C51;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: #EEEEEE;
+    text-decoration: none;
+}
+
+/*contenedor para la estructura*/
+.contenedor_grid{
+    display: grid;
+    grid-template-areas: 
+    "parallax parallax parallax"
+    "informacion imagen imagen";
+    grid-template-rows: 600px 500px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/*aqui empieza el parallax*/
+.parallax{
+    grid-area: parallax;
+    
+}
+#tri{
+    width: 12vw;
+    position: absolute;
+    bottom: 10%;
+    right: 25px;
+    transition: ease-in-out;
+}
+#bosque{
+    width: 100%;
+    position: absolute;
+    bottom: -13%;
+    z-index: -1;
+}
+#zelda{
+    width: 15vw;
+    position: absolute;
+    bottom: 0%;
+    left: 40%;
+}
+
+/*informacionxd*/
+.informacion{
+    grid-area: informacion;
+    background-color: #6594B1;
+    margin: 20px;
+    margin-left: 50px;
+    padding: 25px;
+    justify-items: center;
+    border-radius: 15px;
+    color: #0f1c25;
+
+}
+.informacion p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.informacion h2{
+    
+    padding-bottom: 10px;
+}
+.imagen{
+    grid-area: imagen;
+    margin: 20px;
+}
+.imagen img{
+    height: 100%;
+}

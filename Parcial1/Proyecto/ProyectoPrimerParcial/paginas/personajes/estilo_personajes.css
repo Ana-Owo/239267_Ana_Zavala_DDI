@@ -1,0 +1,60 @@
+.contenedor_grid2{
+    width: 90vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px;
+    padding-top: 40px;
+    padding-left: 60px;
+    position: absolute;
+    bottom: -90%;
+    transition: 2s;
+    opacity: 0.3;
+}
+.contenedor_personajes{
+    
+    background-color: #b6aec0;
+    border-radius: 15px;
+    display: grid;
+    justify-items: center; 
+    
+}
+h2{
+    justify-self: center;
+    margin-top: 5vh;
+    
+}
+.contenedor_personajes img{
+    width: 12vw;
+    margin: 3vh;
+}
+#zelda2{
+    transition: 0.5s;
+}
+#tri2{
+    transition: 0.5s;
+}
+#gatito{
+    transition: 0.5s;
+}
+#link{
+    transition: 0.5s;
+}#ganon{
+    transition: 0.5s;
+}#impa{
+    transition: 0.5s;
+}
+.nombre{
+    margin-bottom: 5vh;
+    width: 15vw;
+    height: 5vh;
+    background-color: #6594B1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: solid 2px #0f1c25;
+    color: #EEEEEE;
+    font-family: Arial, Helvetica, sans-serif;
+}
