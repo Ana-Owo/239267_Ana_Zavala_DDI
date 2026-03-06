@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios dinamicos</title>
+</head>
+
+<body>
+    <form action="">
+        <label for="nombre">Nombre: </label>
+        <input type="text" name="nombre" placeholder="Igresa el nombre" id="input_txt_nombre">
+        <br>
+        <label for="apellido">Apellido: </label>
+        <input type="text" name="apellido" placeholder="ingresa el Apellido" id="input_txt_apellido">
+        <br>
+
+        <label for="correo">Correo: </label>
+        <input type="text" name="correo" placeholder="ingresa el Correo" id="input_txt_correo">
+        <br>
+
+        <label for="contraseña">Contraseña: </label>
+        <input type="text" name="contraseña" placeholder="ingresa la Contraseña" id="input_txt_contraseña">
+        <br>
+
+        <label for="cantidad_correos">Ingrese la cantidad de correos que va a ingresar</label>
+        <input type="number" name="cantidad_correos" id="cantidad_correos" onchange="cambiarNumero(event)">
+        <br>
+        <div class="contenedor_correos" id="contenedor_correos">
+        </div>
+        <div id="Contenedor_usuarios">
+            <div id="contenedor_usuario">
+                <label>Nombre:</label>
+                <span>Ana</span>
+
+                <label>Apellido:</label>
+                <span>Zavala</span>
+            </div>
+        </div>
+
+        <br>
+        <button id="boton_guardar">Guardar Datos</button>
+        <br>
+        <br>
+    </form>
+
+    <form id="form_2">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" placeholder="Nombre">
+        <br>
+
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" placeholder="apellido">
+        <br>
+
+        <label for="correo">Correo</label>
+        <input type="email" name="correo" placeholder="correo">
+        <br>
+
+        <label for="contraseña">Contraseña</label>
+        <input type="password" name="contraseña" placeholder="contraseña">
+        <br>
+
+        <button type="button" onclick="LeerDatos()">Guardar</button>
+    </form>
+</body>
+<script src="js/script.js"></script>
+
+</html>

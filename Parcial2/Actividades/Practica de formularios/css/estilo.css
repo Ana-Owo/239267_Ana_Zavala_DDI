@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#form_1{
+    background-color: rgb(189, 192, 206);
+    justify-items: center;
+    margin-top: 30vh;
+    border: solid 2px white;
+    border-radius: 15px;
+    padding: 2vw;
+    color: rgb(11, 11, 29);
+}
+body{
+    justify-items: center;
+    background-color: rgb(33, 33, 51);
+}
+#contenedor_registro{
+    background-color: rgb(189, 192, 206);
+    justify-items: center;
+    border: solid 2px white;
+    border-radius: 15px;
+    padding: 2vw;
+    position: absolute;
+    top: 30%;
+    visibility: hidden;
+    color: rgb(11, 11, 29);
+}
+#contenedor_tarjetas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 80vw;
+    background-color: rgb(189, 192, 206);
+    border: solid 2px white;
+    border-radius: 15px;
+    padding: 2vw;
+    font-size: large;
+    justify-items: center;
+    
+    color: rgb(11, 11, 29);
+}
+
+#contenedor_tarjetas .tarjeta{
+    border: solid 2px rgb(61, 61, 77);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(11, 11, 29);
+}
+input{
+    padding: 5px;
+    margin: 1vw;
+    border-radius: 7px;
+    border: solid 2px rgb(61, 61, 77);
+}
+button{
+    padding: 5px;
+    
+}
