@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/estilo.css">
+    <link rel="stylesheet" href="../visitante/estilo.css">
+    <link rel="stylesheet" href="estilo.css">
+    
+</head>
+
+<body>
+    <div class="navegacion">
+        <div class="logo">
+            <img src="../../recursos/loguito.png" alt="" id="logo">
+            <a href="../visitante/visitante.html" id="inicio">Inicio</a>
+            <a href="../administrador/administrador.html" id="ventanaSubirArch">Subir archivo</a>
+        </div>
+        <div class="usuarioNav">
+            <h4 id="tipoUsuario"></h4>
+            <div class="contenedorPerfil">
+                <img src="" alt="" id="fotoPerfil">
+
+                <div class="editarUsuario">
+                    <button onclick="" class="editar">Editar perfil <img src="../../recursos/editar.png" alt=""></button> 
+                    <hr>
+                    <button onclick="cerrarSesion()" class="editar">Cerrar sesión <img src="../../recursos/cerrar-sesion-de-usuario.png" alt=""></button> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contenedorSubirProductos">
+        <h3>Selecciona un archivo</h3>
+        <input type="file" name="archivo" id="input-json" accept=".json">
+        <button class="subirArch" id="subirArch">Subir archivo</button>
+        
+    </div>
+    <div class="botonBorrar">
+        <button id="btnBorrar">Borrar archivo actual</button>
+    </div>
+
+    
+
+</body>
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: none;
+    background-color: #2C2A38;
+}
+
+h1 {
+    color: rgb(220, 222, 224);
+    margin: 30px;
+}
+h4{
+    color: rgb(220, 222, 224);
+    margin-right: 2vw;
+}
+
+a {
+    color: #cecdcd;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 2px;
+}
+
+a#inicio {
+    border: 2px solid #E6E6E6;
+    border-radius: 30px;
+    color: #E6E6E6;
+}
+#ventanaSubirArch:hover{
+    color: #E6E6E6;
+    border: 2px solid #a5a4a4;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+#contenedor_tarjetas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 85vw;
+    border-radius: 15px;
+    font-size: large;
+    color: rgb(11, 11, 29);
+}
+
+#contenedor_tarjetas .tarjeta {
+    border: solid 2px rgb(61, 61, 77);
+    background-color: #E6E6E6;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(11, 11, 29);
+    justify-items: center;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 1vw;
+    margin-right: 2vw;
+    border: solid 2px #E6E6E6;
+}
+
+.navegacion {
+    margin-top: 20px;
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 2px #E6E6E6;
+    border-radius: 30px;
+}
+
+button {
+    width: 10vw;
+    margin-bottom: 0;
+    
+}
+
+#logo {
+    width: 100px;
+    border: none;
+    border-radius: 1px;
+    margin-left: 3vw;
+}
+
+.logo {
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.usuarioNav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.editarUsuario {
+    width: 12vw;
+    display: none;
+    position: absolute;
+    right: 30%;
+    top: 90%;
+    background-color: #E6E6E6;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 10px 0px 10px 10px;
+}
+
+.editarUsuario a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.contenedorPerfil {
+    position: relative;
+}
+.contenedorPerfil:hover{
+    cursor: pointer;
+}
+
+.contenedorPerfil:hover .editarUsuario {
+    display: block;
+}
+.editar{
+    display: flex;
+    justify-content: space-evenly;
+}
+.imagenTarjetas {
+    width: 10vw;
+    height: auto;
+    border-radius: 0;
+}
+
+#ventanaSubirArch {
+    display: none;
+}
+h3{
+    padding: 1vw;
+}
+p{
+    padding: 1vw;
+}
+.editar {
+    display: flex;
+    align-items: center;
+    margin: 1vw;
+}
+.editar img {
+    width: 2vw;
+    height: 2vw;
+    border-radius: 0;
+    border: none;
+    margin-right: 0;
+}
+hr{
+    width: 10vw;
+    margin-left: 1vw;
+}
+

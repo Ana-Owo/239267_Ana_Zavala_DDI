@@ -1,0 +1,32 @@
+[
+    {
+        "nombre": "The Legend of Zelda: Echoes of Wisdom",
+        "año": "26/9/2024",
+        "descripccion": "Es una aventura de acción desarrollada y publicada por Nintendo para Switch. Una nueva entrega de la legendaria saga de aventuras, en la que por primera vez controlamos a la princesa Zelda, teniendo que formar equipo con el hada Tri y usar un cetro mágico para crear réplicas de las cosas que encontramos en los escenarios, tanto de los objetos como de los enemigos, para luchar y resolver puzles.",
+        "imagen": "../../recursos/the-legend-of-zelda-echoes-of-wisdom.jpg"
+    },
+    {
+        "nombre": "The Legend of Zelda: Tears of the Kingdom",
+        "año": "12/5/2023",
+        "descripccion": "Es el nuevo videojuego para Nintendo Switch de la saga de juegos de The Legend of Zelda, secuela directa de Breath of the Wild. Protagonizada por Link, y con una jugabilidad basada en la acción y el rol en mundo abierto, esta aventura nos devuelve a Hyrule con una búsqueda de la Princesa Zelda que cuenta con mecánicas de fusión de objetos y armas más avanzadas, nuevas zonas por explorar en los cielos y mucho más.",
+        "imagen": "../../recursos/the-legend-of-zelda-tears-of-the-kingdom.jpg"
+    },
+    {
+        "nombre": "The Legend of Zelda: Link's Awakening",
+        "año": "20/9/2019",
+        "descripccion": "Es el remake para Nintendo Switch del clásico videojuego de rol para Game Boy de la saga Zelda de mismo nombre. Apostando por mantener la estructura del videojuego de la portátil, Nintendo ha optado por mejorar los gráficos, ciertos aspectos de la jugabilidad y añadir múltiples guiños y cameos para destilar la misma esencia de uno de los juegos más recordados de The Legend of Zelda.",
+        "imagen": "../../recursos/the-legend-of-zelda-links-awakening.jpg"
+    },
+    {
+        "nombre": "The Legend of Zelda: Breath of the Wild",
+        "año": "3/3/2017",
+        "descripccion": "Es la decimonovena entrega principal de la serie The Legend of Zelda. Link despierta de un profundo sueño y una voz misteriosa le guía para descubrir qué ha sido de la tierra en ruinas del Reino de Hyrule. [9] Link sale del Santuario de la Resurrección y mira hacia Hyrule, en la cima de la Gran Meseta. ",
+        "imagen": "../../recursos/the-legend-of-zelda-breath-of-the-wild.jpg"
+    },
+    {
+        "nombre": "The Legend of Zelda: Skyward Sword ",
+        "año": "18/11/2011",
+        "descripccion": "El jugador controla a Link, el cual se embarca en una misión para rescatar a su amiga, Zelda, quien ha sido secuestrada y llevada a las tierras inferiores. El sistema de juego de Skyward Sword se basa en la resolución de acertijos y mazmorras. El combate consiste en el uso de la espada y escudo, los cuales son controlados por el periférico del Wii MotionPlus. ",
+        "imagen": "../../recursos/the-legend-of-zelda-skyward-sword.jpg"
+    }
+]

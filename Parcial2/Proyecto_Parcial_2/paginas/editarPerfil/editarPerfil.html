@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="../../css/estilo.css">
+    <link rel="stylesheet" href="../registro/estilo.css">
+</head>
+
+<body>
+    <div class="contenedor_formulario">
+        <form id="form_1">
+            <h1>Edita tu perfil</h1>
+            <br>
+            <input type="text" name="NuevoNombre" placeholder="Escribe tu nuevo nombre" id="NuevoNombre">
+            <br>
+
+            <input type="email" name="NuevoCorreo" placeholder="Escribe tu nuevo correo" id="NuevoCorreo">
+            <br>
+
+            <input type="password" name="NuevaContraseña" placeholder="Escribe tu nueva contraseña" id="NuevaContraseña">
+            <br>
+
+            <input type="password" name="NuevaContraseña2" placeholder="Vuelve a escribir tu nueva contraseña" id="NuevaContraseña2">
+            <br><br>
+            
+            <label for="foto">Selecciona una foto de perfil</label>
+            <img src="../../recursos/usuario.png" alt="" id="imagenSeleccionada">
+            <input type="file" name="imagen" id="input-imagen">
+            
+            <button type="button" id="guardarEdicion">Guardar</button>
+            
+        </form>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>

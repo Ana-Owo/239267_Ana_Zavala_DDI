@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="../../css/estilo.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="contenedor_formulario">
+        <form id="form_1">
+            <h1>¡Registrate!</h1>
+            <br>
+            <input type="text" name="nombre" placeholder="Escribe tu nombre" id="nombre">
+            <br>
+
+            <input type="email" name="correo" placeholder="Escribe tu correo" id="correo">
+            <br>
+
+            <input type="password" name="contraseña" placeholder="Escribe tu contraseña" id="contraseña">
+            <br>
+
+            <input type="password" name="contraseña2" placeholder="Vuelve a escribir tu contraseña" id="contraseña2">
+            <br><br>
+            
+            <label for="foto">Selecciona una foto de perfil</label>
+            <img src="../../recursos/usuario.png" alt="" id="imagenSeleccionada">
+            <input type="file" name="imagen" id="input-imagen">
+            
+            <button type="button" id="botonVisitante">Registrarse como visitante</button>
+            <button type="button" id="botonAdministrador">Registrarse como administrador</button>
+        </form>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
