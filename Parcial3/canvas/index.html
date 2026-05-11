@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+
+
+    <div id="figurasCanvas">
+        <div class="botones">
+            <div id="colorAcciones">
+                <div id="color">
+                    <input type="checkbox" class="checkbox-boton" id="rellenoActivo" name="relleno" checked>
+                    <input type="color" id="colorRelleno" for="relleno" class="colores">
+                    <input type="checkbox" class="checkbox-boton" id="bordeActivo" name="borde" checked>
+                    <input type="color" id="colorBorde" for="borde" class="colores">
+                    <input type="range" name="" id="grosorPincel" class="boton" min="0" max="20">
+                </div>
+
+
+                <div class="acciones">
+                    <button id="deshacer" class="boton"><img src="recursos/deshacer-alt.png" alt=""></button>
+                    <button id="rehacer" class="boton"><img src="recursos/rehacer-alt.png" alt=""></button>
+                    <button id="limpiar" class="boton">Limpiar</button>
+                    <button id="guardar" class="boton">Guardar</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="figuras">
+            <button id="pincel" class="boton"><img src="recursos/pincel.png" alt=""></button>
+            <button id="linea" class="boton"><img src="recursos//barra-oblicua.png" alt=""></button>
+            <button id="cuadrado" class="boton"><img src="recursos/rectangulo-horizontal.png" alt=""></button>
+            <button id="circulo" class="boton"><img src="recursos/circulo.png" alt=""></button>
+            <button id="corazon" class="boton"><img src="recursos/corazon.png" alt=""></button>
+            <button id="sticker" class="boton"><img src="recursos/anadir-imagen.png" alt=""></button>
+            <button id="borrador" class="boton"><img src="recursos/borrador.png" alt=""></button>
+        </div>
+        <div class="archivo">
+
+            <label for="archivo" id="subirarchivo">Subir archivo</label>
+            <input type="file" name="archivo" id="archivo" class="boton">
+
+        </div>
+        <div id="contenedorlienzo">
+            <canvas id="lienzo" class="lienzo" width="1000" height="600"></canvas>
+        </div>
+
+        <div class="filtros">
+            <button id="filtroBN" class="boton">Filtro blanco y negro</button>
+            <button id="rojo" class="boton">Escala rojos</button>
+            <button id="verde" class="boton">Escala verdes</button>
+            <button id="azul" class="boton">Escala azul</button>
+            <button id="sepia" class="boton">Sepia</button>
+            <button id="negativo" class="boton">Negativo</button>
+        </div>
+    </div>
+
+
+</body>
+<script type="module" src="js/script.js"></script>
+
+</html>
